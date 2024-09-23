@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="home" id="home">
+    <div class="nav">
+      <div class="logo">
+          <img src="../image/main_logo.png" width="300px" alt="logo" srcset="">
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">
+          &#9776;
+      </div>
+      <div class="nav_ele" id="navMenu" >
+          <ul class="mini_nav">
+              <a href="#home"><li>Home</li></a>
+              <a href="#events"><li>Events</li></a>
+              <a href="#expert"><li>Experts</li></a>
+              <a href="#contact"><li>Contact</li></a>
+          </ul>
+          <div class="btn">
+              <a href="../html/login.html"><button class="homebtn">Sign up</button></a>
+          </div>
+      </div>
+  </div>
+  
+  
+    <div class="quote" >
+        <div class="heading  typing_animation">
+            <p class="firstline">Crafting <span class="color">Moments,</span> 
+                Creating <span class="color">Memories</span>
+            </p> 
+            <p class="secondline">Your Event, Our Expertise.</p>
+        </div><br><br><br>
+        <div class="details text">Elevate your events with seamless planning, creative execution, and unforgettable experiences. Let us make your vision a reality today!</div>
+    </div>
+ </div>
+
+
+ <div class="events" id="events">
+  <p class="title" id="">“To achieve great things, two things are needed: a plan and not quite enough time.” 
+    -Leonard Bernstein</p><br>
+    <div id="card">
+     
+        <div class="container">
+         
+            <a class="card1 card" href="#">
+              
+              <p class="small">Transform your wedding into a fairy tale with our enchanted forest theme. Let lush greenery, twinkling lights, and whimsical touches transport you to a magical realm. Create memories amidst nature's beauty, under a canopy of stars. Let us craft an unforgettable celebration that reflects your love story's enchantment.</p>
+              <div class="go-corner" href="#">
+                <div class="go-arrow">
+                  Wedding
+                </div>
+              </div>
+            </a>
+            <a class="card2 card" href="#">
+              
+              <p class="small">Transform your celebration with bespoke birthday decor! From custom-themed balloon arches to personalized banners and table settings, our team crafts unforgettable ambiance tailored to your style. Elevate your event with our attention to detail and creativity. Make this birthday one to remember with our unique decorations!</p>
+             
+              <div class="go-corner" href="#">
+                <div class="go-arrow">
+                  Birthday
+                </div>
+              </div>
+            </a>
+            <a class="card3 card" href="#">
+              <p class="small">Transform your party space into a whimsical wonderland with our innovative holographic décor, featuring interactive projections that dance to the rhythm of your music. Elevate the atmosphere with customizable light sculptures and floating installations, ensuring an unforgettable experience for you and your guests. Let imagination ignite your celebration!</p>
+            
+              <div class="go-corner" href="#">
+                <div class="go-arrow">
+                  Party
+                </div>
+              </div>
+            </a>
+            </div>
+ </div>
+ </div>
+
+
+<div class="expert" id="expert">
+  <p class="title">Meet Our Experts</p>
+<div class="experts">
+ <div class="expcont">
+  <div class="expcard">
+    <div class="imgbx">
+      <img src="../image/exp1.jfif" alt="">
+    </div>
+    <div class="content">
+      <p>Jonita Jones</p>
+      <p>planner</p>
+    </div>
+  </div>
+ </div>
+ <div class="expcont">
+  <div class="expcard">
+    <div class="imgbx">
+      <img src="../image/exp2.jfif" alt="">
+    </div>
+    <div class="content">
+      <p>Laith Jorden</p>
+      <p>planner</p>
+    </div>
+  </div>
+ </div>
+ <div class="expcont">
+  <div class="expcard">
+    <div class="imgbx">
+      <img src="../image/exp3.jfif" alt="">
+    </div>
+    <div class="content">
+      <p>Shea Miller</p>
+      <p>planner</p>
+    </div>
+  </div>
+ </div>
+ </div>
+</div> 
+
+
+  <div class="contact" id="contact">
+    <p class="title">Contact Us</p>
+    <form action="https://formspree.io/f/xbjnnyar" method="post">
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" name="full name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="input-box">
+          <input type="number" name="number" placeholder="Phone Number">
+          <input type="text" name="subject" placeholder="Subject">
+        </div>
+      </div>
+
+      <div class="input-group-2">
+        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="homebtn">
+      </div>
+    </form>
+  </div>
+
+
+
+  <footer class="footer">
+    <ul>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#service">Services</a></li>
+      <li><a href="#home">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <p class="copyright">
+      © **** **** &nbsp;| &nbsp;All Rights Reserved &nbsp;|&nbsp; &nbsp;<i class="fa fa-phone"></i> +91- 99999 99999 
+    </p>
+  </footer>
+
+  <script src="../js/home.js"></script>
+</body>
+</html>
